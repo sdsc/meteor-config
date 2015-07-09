@@ -34,7 +34,26 @@
           <h3>
 Users
 </h3>
-<p> Put the documenation here</p>
+<p>
+  <h4>Configuring the pi to work with the network sandbox server</h4><\n>
+  1. Make sure the sandbox server is connected to wall port C<\n>
+  2. Make sure meteor is connected to wall port B<\n>
+  3. sudo nano /etc/network/interfaces<\n>
+  4. Make sure at some point in the file it says this:<\n>
+  <\t>iface eth0 inet static<\n>
+  <\t>address 10.0.0.X(Make sure the ip is different for every pi)<\n>
+  <\t>netmask 255.0.0.0<\n>
+  <\t>gateway 10.0.0.1<\n>
+  <\t>broadcast 10.255.255.255<\n>
+  5. Test whether this works with "ping 8.8.8.8"
+  <\n>
+  
+  <h4>Configuring the pi to work with the google public dns server</h4><\n>
+  1. sudo nano /etc/resolv.conf<\n>
+  2. Under the initial line, make sure it says "nameserver 8.8.8.8"<\n>
+  <\n>
+  
+</p>
 
 <h3><a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
