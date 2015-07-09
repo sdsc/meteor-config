@@ -34,7 +34,18 @@
           <h3>
               Additional Documentation
          </h3>
-<p> Put the documenation here</p>
+<p>
+  <h4>Keeping the pi from sleeping</h4>
+    1. sudo nano /etc/lightdm/lightdm.conf
+    2. scroll down to [SeatDefaults]
+    3. add xserver-command=X -s 0 dpms (to the line underneath [SeatDefaults])
+    4. save and exit file with ctrl-X and Y to save
+    5. sudo shutdown -r now (reboots the pi)
+  <h4>Installing synergy and setting up the config file</h4>
+    1. sudo apt-get install synergy
+    2. nano synergy.conf
+    3. Make sure this is typed into the synergy.conf:
+</p>
 
 <h3><a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
