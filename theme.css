@@ -9,7 +9,7 @@ margin-left: 0px;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
-background-color:#CDE6F7;
+background-color:#DDE8F0;
 }
 
 .wrap {}
@@ -37,6 +37,22 @@ color:#7845DE;
 h5{
 color:#8A59EB;
 }
+.clearfix{
+border: 2px solid #3609B3;
+border-radius:1.5em;
+padding: .5em .5em;
+background:#EBDDF0;
+display:inline;
+color:#3609B3;
+text-decoration:none;
+margin:1em 1em 1em 1em;
+}
+a.clearfix:hover{
+border:2px solid green;
+background:#BFF2CF;
+color:green;
+}
+- See more at: http://w7r.blogspot.com/2012/07/turn-links-into-buttons-with-css.html#sthash.DltO7iqK.dpuf
 
 /* =Nav Controls
 -------------------------------------------------------------- */
