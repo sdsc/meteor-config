@@ -30,10 +30,12 @@ background-color:#D0D3D9;
 
 h1{
 color:#1A0347;
-text-align:center;
+font-size: 3em;
+font-family: 'New Century Schoolbook', serif
 }
 h2{
-color:#390F8C;
+color:#C4C4C4;
+font-size: 1.5em;
 }
 h3{
 color:#5B28BF;
