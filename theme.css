@@ -9,6 +9,7 @@ margin-left: 0px;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
+background-color:#CDE6F7;
 }
 
 .wrap {}
@@ -22,6 +23,7 @@ margin-bottom: 0px;
 
 h1{
 color:#1A0347;
+text-align:center;
 }
 h2{
 color:#390F8C;
