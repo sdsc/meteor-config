@@ -31,20 +31,24 @@ background-color:#D0D3D9;
 h1{
 color:#1A0347;
 font-size: 3em;
-font-family: 'New Century Schoolbook', serif
+font-family: Georgia, Serif;
 }
 h2{
 color:#C4C4C4;
 font-size: 1.5em;
+font-family: Georgia, sans-serif;
 }
 h3{
 color:#5B28BF;
+font-family: Georgia, sans-serif;
 }
 h4{
 color:#7845DE;
+font-family: Georgia, sans-serif;
 }
 h5{
 color:#8A59EB;
+font-family: Georgia, sans-serif;
 }
 .button{
 border: 2px solid #3609B3;
@@ -69,6 +73,10 @@ color:#132E69;
 border-style: solid;
 border-color: #132E69;
 border-radius:1em;
+}
+
+p{
+  font-family: Georgia, Serif;
 }
 
 /* move content down by presets */
