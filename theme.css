@@ -79,8 +79,12 @@ p{
   font-family: Georgia, Serif;
 }
 
-.sidebar{
+div.sidebar{
   position:fixed;
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+  
 }
 
 .sidebarmenu ul{
@@ -88,8 +92,12 @@ margin: 0;
 padding: 0;
 list-style-type: none;
 font: bold 13px Verdana;
-width: 180px; /* Main Menu Item widths */
+width: 12%; /* Main Menu Item widths */
 border-bottom: 1px solid #ccc;
+margin: 0;
+position: absolute;               /* 2 */
+top: 50%;                         /* 3 */
+transform: translate(0, -50%);
 }
  
 .sidebarmenu ul li{
@@ -108,7 +116,7 @@ border-right: 1px solid #778;
 }
 
 .sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{
-background-color: #012D58; /*background of tabs (default state)*/
+background-color: #150C4D; /*background of tabs (default state)*/
 }
 
 
