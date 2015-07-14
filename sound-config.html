@@ -19,7 +19,7 @@
 
         <header>
           <h1>Meteor-config</h1>
-          <h2>Documentation on the Raspberry Pi Cluster Meteor Network Configuration</h2>
+          <h2>Documentation on the Raspberry Pi Cluster Meteor Sound Configuration</h2>
         </header>
 
         <section id="downloads" class="clearfix">
@@ -35,30 +35,25 @@
 Users
 </h3>
 <p>
-  <h4>Configuring the pi to work with the network sandbox server</h4></n>
-  1. Make sure the sandbox server is connected to wall port C</n>
-  2. Make sure meteor is connected to wall port B</n>
-  3. sudo nano /etc/network/interfaces</n>
-  4. Make sure at some point in the file it says this:</n>
-  </t>iface eth0 inet static</n>
-  </t>address 10.0.0.X(Make sure the ip is different for every pi)</n>
-  </t>netmask 255.0.0.0</n>
-  </t>gateway 10.0.0.1</n>
-  </t>broadcast 10.255.255.255</n>
+  <h4>Configuring the pi to work with the network sandbox server</h4><br>
+  1. Make sure the sandbox server is connected to wall port C<br>
+  2. Make sure meteor is connected to wall port B<br>
+  3. sudo nano /etc/network/interfaces<br>
+  4. Make sure at some point in the file it says this:<br>
+ <pre>     iface eth0 inet static<br>
+       address 10.0.0.X(Make sure the ip is different for every pi)<br>
+       netmask 255.0.0.0<br>
+       gateway 10.0.0.1<br>
+       broadcast 10.255.255.255<br>
   5. Test whether this works with "ping 8.8.8.8"
-  </n>
+  <br>
   
-  <h4>Configuring the pi to work with the google public dns server</h4></n>
-  1. sudo nano /etc/resolv.conf</n>
-  2. Under the initial line, make sure it says "nameserver 8.8.8.8"</n>
-  </n>
+  <h4>Configuring the pi to work with the google public dns server</h4><br>
+  1. sudo nano /etc/resolv.conf<br>
+  2. Under the initial line, make sure it says "nameserver 8.8.8.8"<br>
+  <br>
   
 </p>
-
-<h3><a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-        </section>
 
         <footer>
           Meteor-config is maintained by <a href="https://github.com/sdsc">sdsc</a><br>
