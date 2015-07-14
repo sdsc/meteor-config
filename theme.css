@@ -52,28 +52,15 @@ border:2px solid green;
 background:#BFF2CF;
 color:green;
 }
-- See more at: http://w7r.blogspot.com/2012/07/turn-links-into-buttons-with-css.html#sthash.DltO7iqK.dpuf
-
-/* =Nav Controls
--------------------------------------------------------------- */
-
-/* =Banner Controls
--------------------------------------------------------------- */
-
-/* =Page Controls
--------------------------------------------------------------- */
-
-/*----- HOME PAGE
------------------------ */
-
-/*----- SUB PAGE
------------------------ */
-
-/* =Footer Controls
--------------------------------------------------------------- */
-
-/* =Miscellaneous Controls
--------------------------------------------------------------- */
+hr{
+width:85%;
+height:.6em;
+background-color:#132E69;
+color:#132E69;
+border-style: solid;
+border-color: #132E69;
+border-radius:1em;
+}
 
 /* move content down by presets */
 .mt5 {margin-top:5px;}
