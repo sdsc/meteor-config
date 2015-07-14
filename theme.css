@@ -3,10 +3,11 @@
 
 /* =Global Controls
 -------------------------------------------------------------- */
-#center {
+.inner {
 width: 80%;
 margin-left:auto;
 margin-right:auto;
+background-color:white;
 
 }
 
