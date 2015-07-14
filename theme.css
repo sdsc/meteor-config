@@ -1,3 +1,74 @@
+@charset "UTF-8";
+/* CSS Document
+
+/* =Global Controls
+-------------------------------------------------------------- */
+
+body {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.wrap {}
+.wrap-page {}
+
+.logo-spot {}
+#logo {}
+
+.logo-sm-spot {}
+#logo-sm {}
+
+h1{
+font-color:#1A0347;
+}
+h2{
+font-color:#390F8C;
+}
+h3{
+font-color:#5B28BF;
+}
+h4{
+font-color:#7845DE;
+}
+h5{
+font-color:#8A59EB;
+}
+
+/* =Nav Controls
+-------------------------------------------------------------- */
+
+/* =Banner Controls
+-------------------------------------------------------------- */
+
+/* =Page Controls
+-------------------------------------------------------------- */
+
+/*----- HOME PAGE
+----------------------- */
+
+/*----- SUB PAGE
+----------------------- */
+
+/* =Footer Controls
+-------------------------------------------------------------- */
+
+/* =Miscellaneous Controls
+-------------------------------------------------------------- */
+
+/* move content down by presets */
+.mt5 {margin-top:5px;}
+.mt10 {margin-top:10px;}
+.mt15 {margin-top:15px;}
+.mt20 {margin-top:20px;}
+.mt25 {margin-top:25px;}
+.mt30 {margin-top:30px;}
+.mt35 {margin-top:35px;}
+
+/* sometimes padding is the only option */
+.pt5 {padding-top:5px;}
+.pt10 {padding-top:10px;}
 .pt15 {padding-top:15px;}
 .pt20 {padding-top:20px;}
 .pt25 {padding-top:25px;}
