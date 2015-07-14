@@ -1,0 +1,105 @@
+.pt15 {padding-top:15px;}
+.pt20 {padding-top:20px;}
+.pt25 {padding-top:25px;}
+.pt30 {padding-top:30px;}
+.pt35 {padding-top:35px;}
+
+.txtL {text-align:left;}
+.txtR {text-align:right;}
+.txtC {text-align:center;}
+
+.floatL {float:left;}
+.floatR {float:right;}
+
+.hidden {visibility:hidden;}
+.clr {clear:both;}
+.bold {font-weight:bold;}
+
+.block {display:block;}
+.no-underline {text-decoration:none !important;}
+
+/* this is to turn on overflow */
+.hideme {overflow:hidden !important;}
+
+/* =Mobile Safari ( iPad, iPhone and iPod Touch )
+-------------------------------------------------------------- */
+
+pre {
+-webkit-text-size-adjust: 140%;
+}
+code {
+-webkit-text-size-adjust: 160%;
+}
+#access,
+.entry-meta,
+.entry-utility,
+.navigation,
+.widget-area {
+-webkit-text-size-adjust: 120%;
+}
+#site-description {
+-webkit-text-size-adjust: none;
+}
+
+/* mobile styles */
+@media handheld {
+#access,
+.entry-meta,
+.entry-utility,
+.navigation,
+.widget-area {
+-webkit-text-size-adjust: 100%;
+}
+
+#access .menu-header li,
+div.menu li {
+float: left;
+position: relative;
+margin-right:0px !important;
+height:33px
+/*height: auto;*/
+}
+
+}
+/* iPhone-specific styles */
+@media only screen and (max-device-width: 480px) {
+
+#access,
+.entry-meta,
+.entry-utility,
+.navigation,
+.widget-area {
+-webkit-text-size-adjust: 120%;
+}
+
+#access .menu-header li,
+div.menu li {
+float: left;
+position: relative;
+margin-right:0px !important;
+height:33px
+/*height: auto;*/
+}
+
+}
+/* iPad-specific styles */
+@media only screen and (max-device-width: 1024px) {
+
+#access,
+.entry-meta,
+.entry-utility,
+.navigation,
+.widget-area {
+-webkit-text-size-adjust: 120%;
+}
+
+#access .menu-header li,
+div.menu li {
+float: left;
+position: relative;
+margin-right:0px !important;
+height:33px
+/*height: auto;*/
+}
+
+}
