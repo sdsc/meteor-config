@@ -46,15 +46,17 @@
          </h3>
 <p>
   <h4>Keeping the pi from sleeping</h4>
-    1. sudo nano /etc/lightdm/lightdm.conf
-    2. scroll down to [SeatDefaults]
-    3. add xserver-command=X -s 0 dpms (to the line underneath [SeatDefaults])
-    4. save and exit file with ctrl-X and Y to save
-    5. sudo shutdown -r now (reboots the pi)
+    <ol>
+      <li>sudo nano /etc/lightdm/lightdm.conf</li>
+      <li>scroll down to [SeatDefaults]</li>
+      <li>add xserver-command=X -s 0 dpms (to the line underneath [SeatDefaults])</li>
+      <li>save and exit file with ctrl-X and Y to save</li>
+      <li>sudo shutdown -r now (reboots the pi)</li>
+    </ol>
   <h4>Installing synergy and setting up the config file</h4>
-    1. sudo apt-get install synergy
-    2. nano synergy.conf
-    3. Make sure this is typed into the synergy.conf:
+      <li>sudo apt-get install synergy</li>
+      <li>nano synergy.conf</li>
+      <li>Make sure this is typed into the synergy.conf:</li>
 </p>
 
         <footer>
