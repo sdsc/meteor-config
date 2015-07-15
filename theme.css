@@ -41,10 +41,12 @@ font-family: Georgia, sans-serif;
 h3{
 color:#5B28BF;
 font-family: Georgia, sans-serif;
+font-size: 1.6em;
 }
 h4{
 color:#7845DE;
 font-family: Georgia, sans-serif;
+font-size: 1.2em;
 }
 h5{
 color:#8A59EB;
@@ -77,6 +79,17 @@ border-radius:1em;
 
 p{
   font-family: Georgia, Serif;
+  font-size:1.25em;
+}
+
+ol{
+  font-family: Georgia, Serif;
+  font-size:1.25em;
+}
+
+ul{
+  font-family: Georgia, Serif;
+  font-size:1.25em;
 }
 
 div.sidebar{
@@ -173,6 +186,9 @@ color:black;
 
 pre {
 -webkit-text-size-adjust: 140%;
+background-color:black;
+color:white;
+font-size: 1.5em;
 }
 code {
 -webkit-text-size-adjust: 160%;
@@ -249,4 +265,3 @@ height:33px
 /*height: auto;*/
 }
 
-}
