@@ -124,7 +124,7 @@ overflow: auto; /*force hasLayout in IE7 */
 color: white;
 text-decoration: none;
 font-weight: bold;
-padding: .5em .25em .5em .25em;
+padding: .6em .25em .6em .25em;
 border-bottom: 1px solid #778;
 border-right: 1px solid #778;
 }
