@@ -94,10 +94,9 @@ ul{
 
 div.sidebar{
   position:fixed;
-  min-height: 10em;
+  min-height:10em;
   display: table-cell;
   vertical-align: middle;
-  
 }
 
 .sidebarmenu ul{
