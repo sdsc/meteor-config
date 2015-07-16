@@ -178,19 +178,19 @@ table.gridtable th {
 	border-width: .1em;
 	padding: .4em;
 	border-style: solid;
-	border-color: #010217;
+	border-color: #626273;
 	background-color: #CFCFE3;
 }
 table.gridtable td {
 	border-width: .1em;
 	padding: .4em;
 	border-style: solid;
-	border-color: #010217;
+	border-color: #626273;
 	background-color: #ffffff;
 }
 
 footer {
-  padding:.2em 0 1em 0;
+  padding:.2em 0 1.1em 0;
 }
 
 
