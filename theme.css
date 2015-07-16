@@ -5,6 +5,7 @@
 -------------------------------------------------------------- */
 .inner {
 width:70%;
+padding: .3em .3em 2em .3em;
 margin-left:auto;
 margin-right:auto;
 background-color:white;
@@ -67,6 +68,7 @@ border:2px solid green;
 background:#BFF2CF;
 color:green;
 }
+
 hr{
 width:85%;
 height:.3em;
@@ -141,6 +143,28 @@ color:black;
 * html .sidebarmenu ul li { float: left; height: 1%; }
 * html .sidebarmenu ul li a { height: 1%; }
 /* End */
+
+.media {
+  margin: 0;
+  padding: 0 0 0 .7em;
+  list-style-type: none;
+  /*font: bold 1.3em Verdana, serif;*/
+  font: Georgia, Serif;
+  width: 13%; /* Main Menu Item widths */
+  position: fixed;               /* 2 */
+  top: 72%;                         /* 3 */
+  transform: translate(0, -50%);
+}
+
+#twitter img{
+  width: 11%;
+  height: 11%;
+  background-size: contain;
+}
+
+#twitter a{
+  text-decoration:none;
+}
 
 footer {
   padding:.2em 0 1em 0;
