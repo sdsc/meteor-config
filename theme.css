@@ -290,6 +290,52 @@ position: relative;
 margin-right:0px !important;
 height:33px
 /*height: auto;*/
+
+div.sidebar{
+  position:fixed;
+  min-height:10em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sidebarmenu ul{
+margin: 0;
+padding: 0 0 0 .7em;
+list-style-type: none;
+/*font: bold 1.3em Verdana, serif;*/
+font: Georgia, Serif;
+width: 13%; /* Main Menu Item widths */
+position: relative;               /* 2 */
+top: 50%;                         /* 3 */
+transform: translate(0, -50%);
+}
+ 
+.sidebarmenu ul li{
+position: relative;
+}
+
+/* Top level menu links style */
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: .7em .25em .7em .25em;
+border-bottom: 1px solid #778;
+border-right: 1px solid #778;
+}
+
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{
+background-color: #150C4D; /*background of tabs (default state)*/
+}
+
+
+.sidebarmenu ul li a:hover{
+background-color:#E0D0F5;
+color:black;
+}
+
 }
 
 }
