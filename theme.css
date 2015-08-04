@@ -292,7 +292,7 @@ height:33px
 /*height: auto;*/
 
 div.sidebar{
-  position:fixed;
+  position:relative;
   min-height:10em;
   display: table-cell;
   vertical-align: middle;
@@ -330,10 +330,18 @@ border-right: 1px solid #778;
 background-color: #150C4D; /*background of tabs (default state)*/
 }
 
-
 .sidebarmenu ul li a:hover{
 background-color:#E0D0F5;
 color:black;
+}
+
+.inner {
+width:80%;
+padding: .3em .3em 2em .3em;
+margin-left:auto;
+margin-right:auto;
+background-color:white;
+
 }
 
 }
