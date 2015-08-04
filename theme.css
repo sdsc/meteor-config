@@ -305,13 +305,13 @@ list-style-type: none;
 /*font: bold 1.3em Verdana, serif;*/
 font: Georgia, Serif;
 width: 13%; /* Main Menu Item widths */
-position: relative;               /* 2 */
+position: absolute;               /* 2 */
 top: 50%;                         /* 3 */
 transform: translate(0, -50%);
 }
  
 .sidebarmenu ul li{
-position: relative;
+position: absolute;
 }
 
 /* Top level menu links style */
